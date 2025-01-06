@@ -1,0 +1,1323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navber Start */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  position: absolute;
+  width: 100%;
+  margin: -310px 0px;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.nav-list {
+  list-style: none;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+
+.header .logo {
+  text-align: center;
+  margin: -20px 0px;
+}
+
+.logo a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.header .login {
+  text-align: end;
+}
+
+.login button {
+  color: black;
+  padding: 0px 0px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.login .fa-solid {
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 0px 12px;
+}
+
+.login .fa-brands {
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* Navber End */
+
+/* SUMMER COLLECTION Start  */
+
+.SUMMER {
+  padding: 0px 0px;
+}
+
+.COLLECTION {
+  position: absolute;
+  text-align: center;
+  padding: 50px 26px;
+}
+
+.COLLECTION p {
+  padding: 0px 0px;
+  font-size: 132px;
+  text-align: center;
+}
+
+.COLLECTION button {
+  background-color: white;
+  margin: 155px 0px;
+  width: 160px;
+  height: 60px;
+  padding: 0px 0px;
+  font-size: 20px;
+  color: black;
+  border: 2px solid white;
+}
+
+.COLLECTION button:hover {
+  background-color: transparent;
+  border: 5px solid black;
+  color: white;
+}
+
+.images {
+  padding: 0px 0px;
+}
+
+.images img {
+  margin: -155px 0px;
+  width: 100%;
+}
+
+/* SUMMER COLLECTION End */
+
+.EVERYDAY {
+  padding: 200px 0px;
+  text-align: center;
+}
+
+.EVERYDAY p {
+  padding: 0px 0px;
+  font-size: 25px;
+}
+
+/* New In Start */
+
+.NEW {
+  padding: 0px 0px;
+}
+
+.NEW .IN {
+  border-top-style: groove;
+  display: flex;
+  gap: 1220px;
+  text-align: center;
+  padding: 30px 40px;
+  margin: -100px 0px;
+}
+
+.IN p {
+  font-size: 25px;
+}
+
+.IN a {
+  font-size: 18px;
+}
+
+.IN a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  transform: translateX(10px);
+  transition: all 0.5s ease-in-out;
+}
+
+.IN .fa-arrow-right {
+  padding: 0px 7px;
+}
+
+.puffy {
+  display: flex;
+  padding: 100px 0px;
+}
+
+.puffy p {
+  border: 1px solid black;
+  padding: 0px 0px;
+}
+
+.puffy .NewIn {
+  cursor: pointer;
+  color: blue;
+  margin: 40px 40px;
+  position: absolute;
+}
+
+.puffy p img {
+  cursor: pointer;
+  width: 100%;
+  height: 500px;
+}
+
+.puffy .stitch {
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0px 30px;
+  font-size: 1rem;
+}
+
+.bag {
+  cursor: pointer;
+  padding: 0px 30px;
+  line-height: 40px;
+}
+
+/* New In End */
+
+/* New In Start */
+.SHOP {
+  padding: 0px 80px;
+}
+
+.SHOP h1 {
+  margin: -50px 0px;
+  font-size: 30px;
+}
+
+/* card Start  */
+.card-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 90px 0px;
+}
+
+.card-2 {
+  border: 1px solid black;
+  padding: 0px 0px;
+}
+
+.card-2 .paragraph-1 {
+  font-size: 23px;
+  position: absolute;
+  padding: 35px 65px;
+}
+
+.card-2 img {
+  width: 758px;
+  height: 100%;
+  padding: 0px 0px;
+}
+
+.card-2 .main-para {
+  display: flex;
+  gap: 445px;
+  position: absolute;
+  margin: -50px 50px;
+}
+
+.card-2 .paragraph-2 {
+  font-size: 18px;
+  padding: 0px 0px;
+}
+
+.card-2 .paragraph-3 {
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0px 0px;
+}
+
+.card-2 .fa-arrow-right {
+  padding: 0px 6px;
+}
+
+.card-2 .paragraph-3:hover {
+  font-size: 20px;
+}
+
+.card-2 .main-para-2 {
+  display: flex;
+  gap: 343px;
+  position: absolute;
+  margin: -50px 50px;
+}
+
+.card-2 .main-para-3 {
+  display: flex;
+  gap: 425px;
+  position: absolute;
+  margin: -50px 50px;
+}
+
+.card-1 .card-3 {
+  width: 758px;
+  height: 100%;
+  padding: 0px 0px;
+}
+
+.card-3 p {
+  padding: 0px 58px;
+}
+
+.card-3 p .NewIn {
+  color: blue;
+  cursor: pointer;
+  position: absolute;
+  margin: 60px 50px;
+}
+
+.card-3 p img {
+  cursor: pointer;
+  width: 534px;
+  height: 100%;
+}
+
+.card-3 .stitch {
+  cursor: pointer;
+  padding: 0px 58px;
+}
+
+.card-3 .bag {
+  cursor: pointer;
+  padding: 0px 58px;
+}
+
+.main-para-1 {
+  display: flex;
+  gap: 160px;
+  position: absolute;
+  margin: 680px 40px;
+}
+
+.para .deserves {
+  font-size: 20px;
+}
+
+.para .Describe {
+  width: 389px;
+  font-size: 16px;
+  padding: 20px 0px;
+}
+
+.main-para-1 button {
+  cursor: pointer;
+  width: 140px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+.main-para-1 button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+/* card End */
+
+/* Class-1 Start  */
+.class-1 {
+  padding: 0px 0px;
+}
+
+.class-1 .class-2 {
+  margin: -90px 0px;
+}
+
+.class-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.class-2 .UPTO {
+  position: absolute;
+  margin: -420px 257px;
+  font-size: 130px;
+  width: 77%;
+}
+
+.class-2 .Plus {
+  position: absolute;
+  margin: -252px 618px;
+  font-size: 22px;
+}
+
+.class-2 .ShopSale {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  position: absolute;
+  margin: -133px 674px;
+  width: 174px;
+  height: 60px;
+  font-size: 14px;
+}
+
+.class-2 .ShopSale:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+/* Class-1 End */
+
+/* FIND Start  */
+.FIND {
+  display: flex;
+  position: absolute;
+  margin: 130px 0px;
+  border: 2px solid black;
+  width: 100%;
+  height: 70%;
+  border-right: none;
+  border-left: none;
+}
+
+.FIND .INSTAGRAM {
+  padding: 35px 30px;
+  font-size: 22px;
+}
+
+.INSTAGRAM .para-1 {
+  width: 92%;
+  padding: 0px 0px;
+}
+
+.INSTAGRAM .para-1:hover {
+  transform: translateX(10px);
+  transition: all 0.5s ease-in-out;
+}
+
+.INSTAGRAM .Look {
+  display: flex;
+  gap: 120px;
+  margin: 370px 0px;
+}
+
+.Look .para-2 {
+  width: 265px;
+  font-size: 17px;
+}
+
+.Look a {
+  font-size: 15px;
+  padding: 20px 0px;
+}
+
+.Look .fa-arrow-right {
+  padding: 0px 10px;
+}
+
+.images-1 {
+  display: flex;
+  padding: 35px 30px;
+}
+/* FIND End */
+
+/* Bare-1 Start */
+.Bare-1 {
+  display: flex;
+  gap: 0px;
+  margin: 700px 0px;
+  position: absolute;
+}
+
+.Bare-2 {
+  padding: 0px 32px;
+}
+
+.Bare-2 .introduce {
+  padding: 0px 0px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.Bare-2 a {
+  text-decoration: none;
+}
+
+.Bare-2 .space {
+  margin-top: 40px;
+  width: 445px;
+}
+
+.Bare-2 .SUBSCRIBE {
+  padding: 60px 0px;
+  font-size: 18px;
+}
+
+.Bare-2 .first {
+  color: #7d7575;
+  padding: 0px 0px;
+}
+
+.Bare-2 .Email {
+  color: #7d7575;
+  padding: 25px 0px;
+}
+
+.Bare-2 input {
+  width: 499px;
+  height: 40px;
+  border-top-style: none;
+  text-decoration: underline;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+.Bare-2 input:hover {
+  background-color: rgba(12, 12, 12, 0.096);
+}
+
+.Bare-2 .checkbox {
+  margin: 30px -228px;
+  font-size: 103px;
+  width: 100%;
+  height: 15px;
+}
+
+.Bare-2 span {
+  font-size: 13px;
+  margin: 0px -5px;
+}
+
+.Bare-2 button {
+  position: absolute;
+  margin: 14px 76px;
+  width: 170px;
+  height: 50px;
+  background: transparent;
+  font-size: 15px;
+}
+
+.Bare-2 button:hover {
+  background-color: black;
+  color: white;
+}
+
+.Bare-3 {
+  padding: 0px 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Bare-3 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Bare-3 p {
+  padding: 0px 0px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.Bare-3 p a {
+  color: #0000008c;
+  text-decoration: none;
+}
+
+.Bare-4 {
+  margin: 0px -120px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Bare-4 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Bare-4 p {
+  padding: 0px 0px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.Bare-4 p a {
+  color: #0000008c;
+  text-decoration: none;
+}
+
+.Bare-5 {
+  padding: 0px 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Bare-5 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Bare-5 p {
+  padding: 0px 0px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.Bare-5 p a {
+  color: #0000008c;
+  text-decoration: none;
+}
+
+.Bare-6 {
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Bare-6 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Bare-6 p {
+  padding: 0px 0px;
+  font-size: 16px;
+}
+
+.Bare-6 p a {
+  color: #0000008c;
+  text-decoration: none;
+}
+/* Bare-1 End */
+
+hr {
+  position: absolute;
+  margin: 1250px 0px;
+  width: 100%;
+}
+
+/* main-Last Start */
+.main-Last {
+  display: flex;
+  position: absolute;
+  margin: 1250px 0px;
+  padding: 27px 0px;
+  width: 100%;
+}
+
+.main-Last .Last {
+  display: flex;
+  padding: 0px 35px;
+}
+
+.main-Last .images-last {
+  display: flex;
+}
+
+.images-last img {
+  width: 30px;
+  height: 25px;
+}
+
+.main-Last .Wix {
+  float: right;
+}
+
+.main-Last .Wix p a {
+  color: black;
+}
+/* main-Last End */
+
+/* ===================================================================================== */
+
+/* Responsive Design */
+
+@media (min-width: 2000px) {
+
+  /* Navber Start */
+  .header {
+    display: flex;
+    position: absolute;
+    margin: -1355px 0px;
+    color: white;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-list li a:hover {
+    text-decoration: underline;
+  }
+
+  .header .logo {
+    margin: -20px 0px;
+  }
+
+  .logo a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+  }
+
+  .header .login {
+    text-align: end;
+  }
+
+  .login button {
+    color: black;
+    padding: 0px 0px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .login .fa-solid {
+    color: black;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0px 12px;
+  }
+
+  .login .fa-brands {
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  /* Navber End */
+
+  /* SUMMER COLLECTION Start  */
+
+  .SUMMER {
+    padding: 0px 0px;
+  }
+
+  .COLLECTION {
+    position: absolute;
+    text-align: center;
+    padding: 30px 8px;
+  }
+
+  .COLLECTION p {        
+    padding: 80px 45px;
+    font-size: 170px;
+    text-align: center;
+  }
+
+  .COLLECTION button {
+    background-color: white;
+    margin: 800px 0px;
+    width: 230px;
+    height: 90px;
+    padding: 0px 0px;
+    font-size: 35px;
+    color: black;
+    border: 2px solid white;
+}
+
+  .COLLECTION button:hover {
+    background-color: transparent;
+    border: 5px solid black;
+    color: white;
+  }
+
+  .images {
+    padding: 0px 0px;
+  }
+
+  .images img {
+    margin: 0px 0px;
+    width: 2000px;
+    height: 1370px;
+  }
+
+  /* SUMMER COLLECTION End */
+
+  
+.EVERYDAY {
+  padding: 200px 0px;
+  text-align: center;
+}
+
+.EVERYDAY p {
+  padding: 0px 0px;
+  font-size: 25px;
+}
+
+/* New In Start */
+
+.NEW {
+  padding: 0px 0px;
+}
+
+.NEW .IN {
+  border-top-style: groove;
+  display: flex;
+  gap: 1690px;
+  text-align: center;
+  padding: 30px 40px;
+  margin: -100px 0px;
+}
+
+.IN p {
+  font-size: 25px;
+}
+
+.IN a {
+  font-size: 18px;
+}
+
+.IN a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  transform: translateX(10px);
+  transition: all 0.5s ease-in-out;
+}
+
+.IN .fa-arrow-right {
+  padding: 0px 7px;
+}
+
+.puffy {
+  display: flex;
+  padding: 100px 0px;
+}
+
+.puffy p {
+  border: 1px solid black;
+  padding: 0px 0px;
+}
+
+.puffy .NewIn {
+  cursor: pointer;
+  color: blue;
+  margin: 40px 40px;
+  position: absolute;
+}
+
+.puffy p img {
+  cursor: pointer;
+  width: 100%;
+  height: 600px;
+}
+
+.puffy .stitch {
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0px 30px;
+  font-size: 1rem;
+}
+
+.bag {
+  cursor: pointer;
+  padding: 0px 30px;
+  line-height: 40px;
+}
+
+/* New In End */
+
+/* New In Start */
+.SHOP {
+  padding: 0px 80px;
+}
+
+.SHOP h1 {
+  margin: -50px 0px;
+  font-size: 25px;
+}
+
+/* card Start  */
+.card-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 90px 0px;
+}
+
+.card-2 {
+  border: 1px solid black;
+  padding: 0px 0px;
+}
+
+.card-2 .paragraph-1 {
+  font-size: 23px;
+  position: absolute;
+  padding: 35px 65px;
+}
+
+.card-2 img {        
+  width: 998px;
+  height: 100%;
+  padding: 0px 0px;
+}
+
+.card-2 .main-para {
+  display: flex;
+  gap: 655px;
+  position: absolute;
+  margin: -50px 50px;
+}
+
+.card-2 .paragraph-2 {
+  font-size: 18px;
+  padding: 0px 0px;
+}
+
+.card-2 .paragraph-3 {
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0px 0px;
+}
+
+.card-2 .fa-arrow-right {
+  padding: 0px 6px;
+}
+
+.card-2 .paragraph-3:hover {
+  font-size: 20px;
+}
+
+.card-2 .main-para-2 {
+  display: flex;
+  gap: 555px;
+  position: absolute;
+  margin: -50px 50px;
+}
+
+.card-2 .main-para-3 {
+  display: flex;
+  gap: 616px;
+  position: absolute;
+  margin: -50px 50px;
+}
+
+.card-1 .card-3 {
+  width: 999px;
+  height: 100%;
+  padding: 80px 0px;
+}
+
+.card-3 p {
+  padding: 0px 58px;
+}
+
+.card-3 p .NewIn {
+  color: blue;
+  cursor: pointer;
+  position: absolute;
+  margin: 60px 50px;
+}
+
+.card-3 p img {
+  cursor: pointer;
+  width: 600px;
+  height: 660px;
+}
+
+.card-3 .stitch {
+  cursor: pointer;
+  padding: 0px 58px;
+}
+
+.card-3 .bag {
+  cursor: pointer;
+  padding: 0px 58px;
+}
+
+.main-para-1 {
+  display: flex;
+  gap: 400px;
+  position: absolute;
+  margin: 680px 40px;
+}
+
+.para .deserves {
+  font-size: 20px;
+}
+
+.para .Describe {
+  width: 389px;
+  font-size: 16px;
+  padding: 20px 0px;
+}
+
+.main-para-1 button {
+  cursor: pointer;
+  width: 140px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+.main-para-1 button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+/* card End */
+
+/* Class-1 Start  */
+.class-1 {
+  padding: 0px 0px;
+}
+
+.class-1 .class-2 {
+  margin: -90px 0px;
+}
+
+.class-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.class-2 .UPTO {
+  position: absolute;
+  margin: -540px 257px;
+  font-size: 150px;
+  text-align: center;
+}
+
+.class-2 .Plus {
+  position: absolute;
+  margin: -351px 0px;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+}
+
+.class-2 .ShopSale {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  position: absolute;
+  margin: -180px 890px;
+  width: 220px;
+  height: 70px;
+  font-size: 22px;
+
+}
+
+.class-2 .ShopSale:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+/* Class-1 End */
+
+/* FIND Start  */
+.FIND {
+  display: flex;
+  position: absolute;
+  margin: 130px 0px;
+  border: 2px solid black;
+  width: 100%;
+  height: 70%;
+  border-right: none;
+  border-left: none;
+}
+
+.FIND .INSTAGRAM {
+  padding: 35px 30px;
+  font-size: 22px;
+}
+
+.INSTAGRAM .para-1 {
+  width: 92%;
+  padding: 0px 0px;
+}
+
+.INSTAGRAM .para-1:hover {
+  transform: translateX(10px);
+  transition: all 0.5s ease-in-out;
+}
+
+.INSTAGRAM .Look {
+  display: flex;
+  gap: 120px;
+  margin: 370px 0px;
+}
+
+.Look .para-2 {
+  width: 265px;
+  font-size: 17px;
+}
+
+.Look a {
+  font-size: 15px;
+  padding: 20px 0px;
+}
+
+.Look .fa-arrow-right {
+  padding: 0px 10px;
+}
+
+.images-1 {
+  display: flex;
+  padding: 35px 30px;
+}
+
+.images-1 img {
+  width: 500px;
+  height: 600px;
+}
+/* FIND End */
+
+/* Bare-1 Start */
+.Bare-1 {
+  display: flex
+  ;
+  gap: 0px;
+  margin: 1250px 0px;
+  position: absolute;
+ }
+
+.Bare-2 {
+  padding: 0px 32px;
+}
+
+.Bare-2 .introduce {
+  padding: 0px 0px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.Bare-2 a {
+  text-decoration: none;
+}
+
+.Bare-2 .space {
+  margin-top: 40px;
+  width: 445px;
+}
+
+.Bare-2 .SUBSCRIBE {
+  padding: 60px 0px;
+  font-size: 18px;
+}
+
+.Bare-2 .first {
+  color: #7d7575;
+  padding: 0px 0px;
+}
+
+.Bare-2 .Email {
+  color: #7d7575;
+  padding: 25px 0px;
+}
+
+.Bare-2 input {
+  width: 499px;
+  height: 40px;
+  border-top-style: none;
+  text-decoration: underline;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+.Bare-2 input:hover {
+  background-color: rgba(12, 12, 12, 0.096);
+}
+
+.Bare-2 .checkbox {
+  margin: 30px -228px;
+  font-size: 103px;
+  width: 100%;
+  height: 15px;
+}
+
+.Bare-2 span {
+  font-size: 13px;
+  margin: 0px -5px;
+}
+
+.Bare-2 button {
+  position: absolute;
+  margin: 14px 76px;
+  width: 170px;
+  height: 50px;
+  background: transparent;
+  font-size: 15px;
+}
+
+.Bare-2 button:hover {
+  background-color: black;
+  color: white;
+}
+
+.Bare-3 {
+  padding: 0px 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Bare-3 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Bare-3 p {
+  padding: 0px 0px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.Bare-3 p a {
+  color: #0000008c;
+  text-decoration: none;
+}
+
+.Bare-4 {
+  margin: 0px -120px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Bare-4 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Bare-4 p {
+  padding: 0px 0px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.Bare-4 p a {
+  color: #0000008c;
+  text-decoration: none;
+}
+
+.Bare-5 {
+  padding: 0px 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Bare-5 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Bare-5 p {
+  padding: 0px 0px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.Bare-5 p a {
+  color: #0000008c;
+  text-decoration: none;
+}
+
+.Bare-6 {
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Bare-6 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Bare-6 p {
+  padding: 0px 0px;
+  font-size: 16px;
+}
+
+.Bare-6 p a {
+  color: #0000008c;
+  text-decoration: none;
+}
+/* Bare-1 End */
+
+hr {
+  position: absolute;
+  margin: 1250px 0px;
+  width: 100%;
+}
+
+/* main-Last Start */
+.main-Last {
+  display: flex;
+  position: absolute;
+  margin: 1250px 0px;
+  padding: 27px 0px;
+  width: 100%;
+}
+
+.main-Last .Last {
+  display: flex;
+  padding: 0px 35px;
+}
+
+.main-Last .images-last {
+  display: flex;
+}
+
+.images-last img {
+  width: 30px;
+  height: 25px;
+}
+
+.main-Last .Wix {
+  float: right;
+}
+
+.main-Last .Wix p a {
+  color: black;
+}
+/* main-Last End */
+}

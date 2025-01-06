@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Header with Logo, List, and Login</title>
+    <style>
+      /* General Styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background-color: #333;
+        color: white;
+      }
+
+      .logo a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+      }
+
+      .nav {
+        flex-grow: 1;
+      }
+
+      .nav-list {
+        list-style: none;
+        display: inline-flex;
+        gap: 20px;
+      }
+
+      .nav-list li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+      }
+
+      .nav-list li a:hover {
+        color: #00bcd4;
+      }
+
+      .login button {
+        background-color: #00bcd4;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .login button:hover {
+        background-color: #0288d1;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .nav-list {
+          display: none;
+          flex-direction: column;
+          background-color: #444;
+          position: absolute;
+          top: 60px;
+          right: 20px;
+          padding: 10px;
+          border-radius: 5px;
+        }
+
+        .nav-list.active {
+          display: flex;
+        }
+
+        .login {
+          margin-left: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="logo">
+            <a href="#">MyLogo</a>
+          </div>
+      </nav>
+      <div class="login">
+        <button id="loginButton">Login</button>
+      </div>
+    </header>
+
+    <script>
+      const loginButton = document.getElementById("loginButton");
+      const navList = document.querySelector(".nav-list");
+
+      // Toggle navigation for mobile view
+      document.querySelector(".logo").addEventListener("click", () => {
+        navList.classList.toggle("active");
+      });
+
+      // Handle login button click
+      loginButton.addEventListener("click", () => {
+        alert("Redirecting to login page...");
+        // Example: Redirect to login.html
+        window.location.href = "login.html";
+      });
+    </script>
+  </body>
+</html>
